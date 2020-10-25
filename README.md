@@ -2,14 +2,18 @@
 
 A set of functions for drawing perfect arrows between points and shapes.
 
+- [`getArrow`](#getarrowx0-y0-x1-y1-options) - For point-to-point arrows.
+- [`getBoxToBoxArrow`](#getboxtoboxarrowx0-y0-w0-h0-x1-y1-w1-h1-options) - For rectangle-to-rectangle arrows.
+
 ![Example](/example.gif)
 
 👉 [Demo](https://perfect-arrows.now.sh/)
 
 [![Edit example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/steveruizok/perfect-arrows/tree/master/example?fontsize=14&hidenavigation=1&theme=dark)
 
-- [x] `getArrow` - For point-to-point arrows.
-- [x] `getBoxToBoxArrow` - For rectangle-to-rectangle arrows.
+<div align="center">
+<p>Other languages</p>
+<p><a href=".github/README_pt_BR.md">Português (pt-BR)</a></p></div>
 
 ## Installation
 
@@ -122,6 +126,8 @@ export function PerfectArrow() {
   )
 }
 ```
+
+---
 
 ### `getBoxToBoxArrow(x0, y0, w0, h0, x1, y1, w1, h1, options)`
 
